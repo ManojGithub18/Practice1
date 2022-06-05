@@ -1,0 +1,155 @@
+kanda@Manoj-DellPC MINGW64 ~
+$ ls -ltr
+total 6105
+-rw-r--r-- 1 kanda 197609  229376 Mar 19 09:22  ntuser.dat.LOG2
+-rw-r--r-- 1 kanda 197609  393216 Mar 19 09:22  ntuser.dat.LOG1
+-rw-r--r-- 1 kanda 197609  524288 Mar 19 09:22  NTUSER.DAT{feae975f-258f-11ec-b988-8c47be171a1b}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 kanda 197609  524288 Mar 19 09:22  NTUSER.DAT{feae975f-258f-11ec-b988-8c47be171a1b}.TMContainer00000000000000000001.regtrans-ms
+lrwxrwxrwx 1 kanda 197609      24 Mar 19 09:22 'My Documents' -> /c/Users/kanda/Documents/
+lrwxrwxrwx 1 kanda 197609      58 Mar 19 09:22  Templates -> /c/Users/kanda/AppData/Roaming/Microsoft/Windows/Templates/
+lrwxrwxrwx 1 kanda 197609      59 Mar 19 09:22 'Start Menu' -> '/c/Users/kanda/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 kanda 197609      55 Mar 19 09:22  SendTo -> /c/Users/kanda/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 kanda 197609      55 Mar 19 09:22  Recent -> /c/Users/kanda/AppData/Roaming/Microsoft/Windows/Recent/
+lrwxrwxrwx 1 kanda 197609      66 Mar 19 09:22  PrintHood -> '/c/Users/kanda/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 kanda 197609      66 Mar 19 09:22  NetHood -> '/c/Users/kanda/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+lrwxrwxrwx 1 kanda 197609      28 Mar 19 09:22 'Local Settings' -> /c/Users/kanda/AppData/Local/
+lrwxrwxrwx 1 kanda 197609      58 Mar 19 09:22  Cookies -> /c/Users/kanda/AppData/Local/Microsoft/Windows/INetCookies/
+lrwxrwxrwx 1 kanda 197609      30 Mar 19 09:22 'Application Data' -> /c/Users/kanda/AppData/Roaming/
+-rw-r--r-- 1 kanda 197609      20 Mar 19 09:22  ntuser.ini
+drwxr-xr-x 1 kanda 197609       0 Mar 19 09:22  AppData/
+-rw-r--r-- 1 kanda 197609   65536 Mar 19 09:22  NTUSER.DAT{feae975f-258f-11ec-b988-8c47be171a1b}.TM.blf
+drwxr-xr-x 1 kanda 197609       0 Mar 19 10:02  Favorites/
+drwxr-xr-x 1 kanda 197609       0 Mar 19 10:02  Contacts/
+drwxr-xr-x 1 kanda 197609       0 Mar 19 10:02  Music/
+drwxr-xr-x 1 kanda 197609       0 Mar 19 10:02 'Saved Games'/
+drwxr-xr-x 1 kanda 197609       0 Mar 19 10:02  Links/
+drwxr-xr-x 1 kanda 197609       0 Mar 19 11:18  Searches/
+drwxr-xr-x 1 kanda 197609       0 Mar 21 12:15  eclipse/
+drwxr-xr-x 1 kanda 197609       0 Mar 21 14:50  Videos/
+drwxr-xr-x 1 kanda 197609       0 Apr  5 14:57  Documents/
+-rw-r--r-- 1 kanda 197609 4456448 May 23 15:32  NTUSER.DAT
+drwxr-xr-x 1 kanda 197609       0 May 29 19:51  eclipse-workspace/
+drwxr-xr-x 1 kanda 197609       0 May 29 20:22  Desktop/
+drwxr-xr-x 1 kanda 197609       0 May 31 12:40  OneDrive/
+drwxr-xr-x 1 kanda 197609       0 Jun  5 19:51  Downloads/
+drwxr-xr-x 1 kanda 197609       0 Jun  5 20:03  github/
+
+kanda@Manoj-DellPC MINGW64 ~
+$ cd github/
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ l s-ltr
+bash: l: command not found
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ ls -ltr
+total 0
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ git --version
+git version 2.36.1.windows.1
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ git config --global user.name "ManojGithub18"
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$  git config --global user.email "manoj.kandalam@gmail.com"
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ git clone https://github.com/ManojGithub18/Practice1.git
+Cloning into 'Practice1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ ls -ltr
+total 0
+drwxr-xr-x 1 kanda 197609 0 Jun  5 20:35 Practice1/
+
+kanda@Manoj-DellPC MINGW64 ~/github
+$ cd Practice1/
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (main)
+$ git branch dummy
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (main)
+$ git checkout dummy
+Switched to branch 'dummy'
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ vi hello.py
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ ls -ltr
+total 2
+-rw-r--r-- 1 kanda 197609 11 Jun  5 20:35 README.md
+-rw-r--r-- 1 kanda 197609 15 Jun  5 20:38 hello.py
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ git add *
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ git show
+commit de5b621b158847d800cda9e85b3ad6903a50cabd (HEAD -> dummy, origin/main, origin/HEAD, main)
+Author: ManojGithub18 <106918911+ManojGithub18@users.noreply.github.com>
+Date:   Sun Jun 5 20:07:22 2022 +0530
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..e0b4974
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# Practice1
+\ No newline at end of file
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ git commit -m "Added a sample py script"
+[dummy 8f3f29d] Added a sample py script
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.py
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ git log
+commit 8f3f29da897bcacf53f6c299fd971822246e5c36 (HEAD -> dummy)
+Author: ManojGithub18 <manoj.kandalam@gmail.com>
+Date:   Sun Jun 5 20:39:21 2022 +0530
+
+    Added a sample py script
+
+commit de5b621b158847d800cda9e85b3ad6903a50cabd (origin/main, origin/HEAD, main)
+Author: ManojGithub18 <106918911+ManojGithub18@users.noreply.github.com>
+Date:   Sun Jun 5 20:07:22 2022 +0530
+
+    Initial commit
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ git push -u origin
+fatal: The current branch dummy has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dummy
+
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ git push -u origin dummy
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dummy' on GitHub by visiting:
+remote:      https://github.com/ManojGithub18/Practice1/pull/new/dummy
+remote:
+To https://github.com/ManojGithub18/Practice1.git
+ * [new branch]      dummy -> dummy
+branch 'dummy' set up to track 'origin/dummy'.
+
+kanda@Manoj-DellPC MINGW64 ~/github/Practice1 (dummy)
+$ 
